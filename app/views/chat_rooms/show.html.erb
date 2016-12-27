@@ -36,10 +36,19 @@
               <%= f.text_area :body, class: 'form-control' %>
               <small class="text-muted"><%= t('From 2 to 1000 characters') %></small>
             </div>
-
-            <%= f.submit t("Post"), class: 'btn btn-primary btn-xs' %>
+            <div class="col-md-4">
+              <%= f.submit t("Post"), class: 'btn btn-primary btn-xs' %>
+              <%= f.label "(Ctrl + Enter)", style: 'display:inline-block; font-size:14px;' %>
+            </div>
         <% end %>
       </div>
     </div>
   </div>
 </div>
+<script>
+    $('#new_message').keydown(function (e) {
+        if (e.ctrlKey && e.keyCode == 13) {
+            $('#new_message').submit();
+        }
+    });
+</script>
