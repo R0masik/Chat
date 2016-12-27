@@ -36,10 +36,7 @@
               <%= f.text_area :body, class: 'form-control' %>
               <small class="text-muted"><%= t('From 2 to 1000 characters') %></small>
             </div>
-            <div class="col-md-4">
-              <%= f.submit t("Post"), class: 'btn btn-primary btn-xs' %>
-              <%= f.label "(Ctrl + Enter)", style: 'display:inline-block; font-size:14px;' %>
-            </div>
+            <%= f.submit t("Post"), class: 'btn btn-primary btn-xs' %>
         <% end %>
       </div>
     </div>
