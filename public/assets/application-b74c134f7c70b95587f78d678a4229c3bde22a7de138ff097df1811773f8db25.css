@@ -14,7 +14,7 @@ html {
 
 /* line 19, D:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
 body {
-  background-image: url("bgrd.png");
+  background-image: image_url("https://s-media-cache-ak0.pinimg.com/originals/dc/be/b1/dcbeb161bdf1d6537904b24eaf13933a.jpg");
   margin: 0;
 }
 
