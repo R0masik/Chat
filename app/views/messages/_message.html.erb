@@ -5,7 +5,7 @@
         <% if message.user.avatar.url == "/avatars/original/missing.png" %>
           <%= gravatar_for message.user %>
         <% else %>
-           <img style="max-height: 40px;max-width: 40px" src="<%= message.user.avatar.url(:thumb) %>"/>
+           <img style="max-height: 40px;max-width: 40px" src="<%= message.user.avatar.url (:thumb) %>"/>
         <% end %>
       </div>
       <div class="col-md-8">
