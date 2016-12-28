@@ -22,6 +22,5 @@ module CableChat
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-    config.i18n.default_locale = :ru
   end
 end
