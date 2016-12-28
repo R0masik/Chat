@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f2fccdb-2a0e-4e74-b2c4-5584197abc55" name="Default" comment="1">
+    <list default="true" id="0f2fccdb-2a0e-4e74-b2c4-5584197abc55" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/chat_rooms/_chat_room.html.erb" afterPath="$PROJECT_DIR$/app/views/chat_rooms/_chat_room.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -792,7 +790,7 @@
       <workItem from="1482771900425" duration="18042000" />
       <workItem from="1482796898746" duration="5513000" />
       <workItem from="1482803174923" duration="36936000" />
-      <workItem from="1482922524186" duration="6443000" />
+      <workItem from="1482922524186" duration="6516000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1482873555028</created>
@@ -934,11 +932,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482949823558</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1">
+      <created>1482950824915</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1482950824915</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77401000" />
+    <option name="totallyTimeSpent" value="77474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
